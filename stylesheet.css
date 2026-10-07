@@ -9,7 +9,7 @@ a:hover { color: #f09228; }
 .portrait { border-radius: 2%; overflow: hidden; }
 .portrait img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 25%; }
 
-.button.cv-pending, .button.cv-pending:hover, .button.cv-pending:focus { cursor: default; opacity: 0.6; color: #363636; }
+.button.link-pending, .button.link-pending:hover, .button.link-pending:focus { cursor: default; opacity: 0.6; color: #363636; }
 .hr hr { margin: 0; background-color: #eee; height: 1px; }
 .section { padding: 2.5rem 1.5rem; }
 .section .title { color: #222; }
