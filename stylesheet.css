@@ -37,12 +37,16 @@ a:hover { color: #f09228; }
 .publication-block:target { animation: highlight-fade 2s ease; }
 @keyframes highlight-fade { from { background: #fff6d5; } to { background: transparent; } }
 
-/* Education. */
-.education-entry { margin-bottom: 1.2em; }
-.education-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5em; }
-.education-school { font-weight: 600; font-size: 1.05em; color: #222; }
-.education-period { color: #666; font-size: 0.9em; flex-shrink: 0; }
-.education-degree { color: #555; font-size: 0.95em; margin-top: 0.2em; }
+/* Education: logo on the left, degree | school, period, notes. */
+.education-entry { margin-bottom: 1.25rem !important; }
+.education-logo { display: block; width: 120px; height: auto; }
+.education-title { font-size: 1.15rem; font-weight: 700; line-height: 1.4; }
+.education-title .education-degree { color: #888; }
+.education-title .education-school { color: #222; }
+.education-period { color: #555; margin-top: 0.15em; }
+.education-notes { margin: 0.6em 0 0 1.2em; list-style: disc; color: #444; }
+.education-notes li { margin: 0.15em 0; }
+@media (max-width: 560px) { .education-logo { width: 64px; } .education-title { font-size: 1rem; } }
 
 .footer { background: #fafafa; padding: 2rem 1.5rem; }
 .footer-links a { color: #555; font-size: 1.3rem; margin: 0 0.6rem; }
