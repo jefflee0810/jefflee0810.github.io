@@ -1,5 +1,5 @@
 /* Light theme only; Bulma would otherwise switch to dark colors with the OS setting. */
-:root { color-scheme: light; }
+:root { color-scheme: only light; }
 html, body { background: #fff; color: #333; font-family: 'Noto Sans', sans-serif; }
 a { color: #1772d0; }
 a:hover { color: #f09228; }
