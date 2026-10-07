@@ -52,3 +52,4 @@ a:hover { color: #f09228; }
 .footer { background: #fafafa; padding: 2rem 1.5rem; }
 .footer-links a { color: #555; font-size: 1.3rem; margin: 0 0.6rem; }
 .footer-links a:hover { color: #1772d0; }
+.footer-links a.link-pending, .footer-links a.link-pending:hover { cursor: default; opacity: 0.45; color: #555; }
